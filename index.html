@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<!-- 1. h1 - h6
+2. p
+3. <img src="link ảnh" alt="ảnh băng tuyết">
+4. a - anchor
+5. ul, li
+<ul>
+    <li></li>
+    <li></li>
+</ul>
+6. table
+<table>
+    <thead>
+        <th>STT</th>
+        <th>Tên</th>
+        <th>Địa Chỉ</th>
+    </thead>
+    <tbody>
+        <tr>
+            <td>1</td>
+            <td>Ngọc Duyên</td>
+            <td>Hà Nội</td>
+        </tr>
+    </tbody>
+</table>
+7. input
+<input type="text" name="" id="">
+<input type="checkbox" name="" id="">
+<input type="radio" name="" id="">
+8. button
+<button>Đăng Kí</button>
+9. div tạo khối bao quanh
+<div>
+
+</div> -->
+<!-- cách sử dụng css
+
+<h1 title="Đây là attribute">Attribute</h1> -->
+<html>
+    <head>
+        <title>F8 - Shop</title>
+        <meta charset="utf-8">
+        <!-- <style>
+            h1{
+                color: aqua;
+                font-size: 20px;
+            }
+        </style> -->
+        <link rel="stylesheet" href="main.css">
+        <!-- <style>
+            #heading-id{
+                color: crimson;
+            }
+             .heading-class{
+                color: brown;
+            }
+            h1{
+                color: aqua;
+            }
+            .heading-class{
+                color: brown;
+            }
+        </style> -->
+        <style>
+            .box{
+                width: 100px;
+                height: 100px;
+                background-color: brown;
+            }
+            a::after {
+                content: "("attr(href)")"
+            }
+        </style>
+    </head>
+    <body>
+        <!-- <h1 id="first-heading">CSS selectors ?</h1>
+        <h1 class="second-heading">CSS selectors ?</h1>
+        <h1  class="second-heading" >CSS selectors ?</h1>
+        <h2  class="second-heading">ID & Class ?</h2> -->
+        <!-- <div>
+            <h1 style="color: red;">CSS in HTML</h1>
+            <ol>
+                <li>Internall</li> Viết <style></style>
+                <li>External</li> sử dụng file css
+                <li>Inline</li> sử dụng attribute style="" trong các thẻ
+            </ol>
+        </div> -->
+        <!-- <div id="main">
+            <div class="header">
+            </div>
+            <div class="nav">
+            </div>
+             <div class="container">
+                <h1 class="heading">Tôi đang đều đặn học lập trình mỗi ngày</h1>
+            </div>
+            <div class="footer"></div>
+        </div> -->
+        <!-- Độ ưu tiên trong css (Priority)
+        <div>
+            <h1 class="heading-class" id="heading-id">Priority</h1>
+            <ol>
+                <li>Internal, External</li>
+                <li>Inline - 1000</li>
+                <li>#id - 100</li>
+                <li>.class - 10</li>
+                <li>tag - 1</li>
+                <li>Equal specificity?</li>
+                <li>Universal selector and inherrited?</li>
+            </ol>
+        </div> -->
+        <!-- <h1>CSS Variable (bien)</h1> -->
+        <div class="box"></div>
+        <div>
+            <!-- <h1>CSS units</h1>
+            <h2>1. Đơn vị</h2> -->
+            <!-- <ul>
+                <li>px</li>
+                <li>pt</li>
+                <li>cm</li>
+                <li>mm</li>
+                <li>inch</li>
+                <li>pc</li>
+            </ul>
+            <h2>2. Relative units</h2>
+            <ul>
+                <li>%</li>
+                <li>rem</li>
+                <li>vw</li>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul> -->
+            <a href="http://facebook.com">FACEBOOK</a>
+            <!-- <h1>CSS function</h1>
+            <ul>
+                <li>var()</li>
+                <li>linear-gradient()</li>
+                <li>rgba()</li>
+                <li>rgb()</li>
+                <li>calc()</li>
+                <li>attr()</li>
+            </ul> -->
+            <!-- <h1>CSS Pseudo classes</h1>
+            <ul>
+                <li>:root</li>
+                <li>:hover</li>
+                <li>:active</li>
+                <li>:first-child</li>
+                <li>:last-child</li>
+            </ul> -->
+            <h1>CSS pseudo elements</h1>
+            <ul>
+                <li>::before</li>
+                <li>::after</li>
+                <li>::first-letter</li>
+                <li>::first-line</li>
+                <li>::selection</li>
+            </ul>
+        </div>
+
+    </body>
+</html>
